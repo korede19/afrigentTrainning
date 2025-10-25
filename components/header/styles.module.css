@@ -1,0 +1,30 @@
+.headContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+  justify-content: space-between;
+}
+
+.logoContain {
+  width: 155px;
+  height: auto;
+}
+
+.menuContain {
+  display: flex;
+  gap: 32px;
+}
+
+.buttonContain > button {
+  background-color: #0a3845;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "outfit", sans-serif;
+  cursor: pointer;
+}
