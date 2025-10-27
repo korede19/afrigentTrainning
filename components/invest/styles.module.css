@@ -1,0 +1,93 @@
+.contain {
+  padding: 60px 0px;
+  background: #697f8c0d;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container > h2 {
+  font-weight: 800;
+  font-style: Super Bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pricing {
+  padding-top: 42px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.colOne {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.colOne > h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.colOne > div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.colOne > div p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.colTwo {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+}
+
+.otherText {
+  padding-top: 80px;
+  max-width: 799px;
+  margin: 0 auto;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .container > h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .pricing {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .colOne > div p {
+    font-size: 18px;
+  }
+
+  .colOne h4 {
+    font-size: 24px;
+  }
+
+  .colTwo {
+    grid-template-columns: 1fr;
+  }
+  .otherText {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+}

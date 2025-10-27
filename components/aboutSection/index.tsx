@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./styless.module.css";
 import { firstItems } from "@/utils/data";
 import Image from "next/image";
+import Solution from "../solution";
+import Advantage from "../advantage";
 
 const AboutSection = () => {
   return (
@@ -28,6 +30,12 @@ const AboutSection = () => {
               />
             </div>
           </div>
+        </div>
+        <div className={styles.sectionTwo}>
+          <Solution />
+        </div>
+        <div className={styles.sectionThree}>
+          <Advantage />
         </div>
       </div>
     </div>

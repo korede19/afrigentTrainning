@@ -1,0 +1,90 @@
+.pgContain {
+  padding: 80px 0px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pgContain > h2 {
+  width: 690px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 800px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.boxContain {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  padding-top: 48px;
+}
+
+.box {
+  padding: 50px 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-shadow: 1px 4px 4px 1px #00000040;
+  border-radius: 10px;
+}
+
+.box > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.box p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0a3845;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name > div h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.name > div p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #697f8c;
+}
+
+@media (max-width: 768px) {
+  .boxContain {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .pgContain > h2 {
+    font-size: 26px;
+    line-height: 32px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .box {
+    padding: 30px 20px;
+  }
+  .box p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .name > div h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .name > div p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

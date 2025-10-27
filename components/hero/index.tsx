@@ -5,10 +5,10 @@ const HeroSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contain}>
-        <h2>
+        <h1>
           JAPA WITH YOUR LAPTOP! EARN IN DOLLARS AS A WORDPRESS PRO IN JUST TWO
           WEEKS
-        </h2>
+        </h1>
         <p>
           Stop the endless job search. Master an in-demand skill that lets you
           work remotely for international client and get paid in foreign

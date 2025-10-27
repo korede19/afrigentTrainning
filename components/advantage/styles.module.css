@@ -1,0 +1,98 @@
+.contain {
+  padding: 80px 0px;
+}
+
+.contain > h2 {
+  font-size: 36px;
+  color: #0a3845;
+  line-height: 1;
+}
+
+.subHead {
+  color: #c7a069;
+}
+
+.contain > p {
+  padding-bottom: 48px;
+  font-size: 24px;
+  color: #0a3845;
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+  gap: 18px;
+}
+
+.colOne {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.colOne > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.colTwo {
+  width: 60%;
+  background-color: #0a3845;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 66px 74px;
+}
+
+.contents {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: #fff;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.texts h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .contain > h2 {
+    font-size: 24px;
+  }
+
+  .contain > p {
+    font-size: 18px;
+    padding: 10px 0px 24px 0px;
+    line-height: 1.2;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .colOne,
+  .colTwo {
+    width: 100%;
+  }
+
+  .colTwo {
+    padding: 40px 20px;
+  }
+
+  .contents {
+    gap: 20px;
+  }
+
+  .texts {
+    gap: 10px;
+  }
+}

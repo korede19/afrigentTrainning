@@ -28,3 +28,12 @@
   font-family: "outfit", sans-serif;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .headContainer {
+    padding: 20px 10px;
+  }
+  .menuContain {
+    display: none;
+  }
+}
