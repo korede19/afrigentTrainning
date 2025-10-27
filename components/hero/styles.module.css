@@ -65,10 +65,10 @@
 }
 
 @media (max-width: 768px) {
-  .contain {
-    padding: 20px;
+  .container {
+    height: auto;
+    padding: 80px 20px;
   }
-
   .contain > h1 {
     font-size: 30px;
   }
